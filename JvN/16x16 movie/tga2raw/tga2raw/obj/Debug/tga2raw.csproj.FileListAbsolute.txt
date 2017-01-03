@@ -1,0 +1,8 @@
+C:\Temp\rom movie\tga2raw\tga2raw\bin\Debug\tga2raw.exe
+C:\Temp\rom movie\tga2raw\tga2raw\bin\Debug\tga2raw.pdb
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.csprojResolveAssemblyReference.cache
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.Form1.resources
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.Properties.Resources.resources
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.csproj.GenerateResource.Cache
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.exe
+C:\Temp\rom movie\tga2raw\tga2raw\obj\Debug\tga2raw.pdb
