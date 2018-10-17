@@ -1,7 +1,7 @@
 local g = golly()
 local gp = require "gplus"
 local pattern = gp.pattern
-local fname = g.opendialog("Open RAW Data File", "*.*", "C:\\Temp", "ROM.dat")
+local fname = g.opendialog("Open RAW Data File", "*.*", "", "ROM.dat")
 if #fname == 0 then
   g.exit("")
 end
