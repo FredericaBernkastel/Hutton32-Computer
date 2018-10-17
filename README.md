@@ -1,13 +1,15 @@
-My aim - design 16bit computer in Hutton32 CA.
+[`1. elementary basis:`](circuits-sandbox.rle)
 
-[`1. elementary basis:`](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/circuits-sandbox.mc)
-
-![](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/circuits-sandbox.png)
+![](doc/circuits-sandbox.png)
 <br><br><br>
-[`2. 8-bit decimal counter:`](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/advanced%20counter.mc)
+[`2. 8-bit decimal counter:`](advanced%20counter.mc)
 
-![](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/advanced%20counter~marked.png)
+![](doc/advanced%20counter~marked.png)
 <br><br><br>
-[`3. 16x16 display:`](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/big%20sandbox/16x16%20display.mc)
+[`3. 16x16 display:`](big%20sandbox/16x16%20display.mc)
 
-![](https://github.com/FredericaBernkastel/Cellular-automaton/blob/master/JvN/big%20sandbox/16x16%20display.png)
+![](big%20sandbox/16x16%20display.png)
+<br><br><br>
+[`4. Efficient ROM and address decoder:`](16x16%20movie/16x16%20movie.mc)
+
+![](16x16%20movie/16x16%20movie.png)
