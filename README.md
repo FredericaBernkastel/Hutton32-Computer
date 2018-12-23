@@ -13,3 +13,7 @@
 [`4. Efficient ROM and address decoder:`](16x16%20movie/16x16%20movie.mc)
 
 ![](16x16%20movie/16x16%20movie.png)
+<br><br><br>
+[`4. Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
+
+![](doc/efficient_demultiplexer.png)
