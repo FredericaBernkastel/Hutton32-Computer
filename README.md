@@ -14,6 +14,6 @@
 
 ![](16x16%20movie/16x16%20movie.png)
 <br><br><br>
-[`4. Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
+[`5. Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
 
 ![](doc/efficient_demultiplexer.png)
