@@ -1,3 +1,6 @@
+**Hutton32b** - a backward compatible modification of Hutton32 CA. [[Ruletable](doc/Hutton32b.rule)]<br>
+The 25th state, 2 inputs / 2 outputs in opposite directions, will now work as a very small (3x3) XNOR logic gate.
+
 [`1. elementary basis:`](circuits-sandbox.rle)
 
 ![](doc/circuits-sandbox.png)

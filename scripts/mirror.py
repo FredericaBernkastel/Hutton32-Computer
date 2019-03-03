@@ -3,7 +3,7 @@ from string import lower
 import golly as g
 import math
 
-rules = ("JvN29", "Nobili32", "Hutton32")
+rules = ("JvN29", "Nobili32", "Hutton32", "Hutton32b")
 
 rule = g.getrule ()
 if rule not in rules:
