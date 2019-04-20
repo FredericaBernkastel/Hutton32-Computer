@@ -21,3 +21,9 @@
 [`5. Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
 
 ![Hutton32](doc/efficient_demultiplexer.png)
+
+
+<br><br><br>
+### Memories of the Hutton wars
+![Hutton32](doc/adder%20meme.png)
+<img src="doc/not%20meme.jpg" alt="Hutton32" width="312">
