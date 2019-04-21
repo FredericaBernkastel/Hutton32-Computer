@@ -25,5 +25,6 @@
 
 <br><br><br>
 ### Memories of the Hutton wars
-![Hutton32](doc/adder%20meme.png)
-<img src="doc/not%20meme.jpg" alt="Hutton32" width="312">
+![Hutton32](doc/memes/adder%20meme.png)
+<img src="doc/memes/not%20meme.jpg" alt="Hutton32" width="312">
+![Hutton32](doc/memes/wirecross.png)
