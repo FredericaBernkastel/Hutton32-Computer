@@ -10,9 +10,9 @@
 
 ![Hutton32](doc/advanced%20counter~marked.png)
 <br><br><br>
-[`3. 16x16 display:`](big%20sandbox/16x16%20display.mc)
+[`3. 16x16 display:`](misc/16x16%20display.mc)
 
-![Hutton32](big%20sandbox/16x16%20display.png)
+![Hutton32](doc/16x16%20display.png)
 <br><br><br>
 [`4. Efficient ROM and address decoder:`](16x16%20movie/16x16%20movie.mc)
 
