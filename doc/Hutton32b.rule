@@ -128,10 +128,12 @@
 #    transitive state consistent with the regular one. It will receive signal, 
 #    even if can't transmit one.
 #
+# 3) Added forgotten set of rules <29,12,9,0,13,25>.
+#
 # =============================================================================
 #
 #
-# rules: 324
+# rules: 323
 #
 # Golly rule-table format.
 # Each rule: C,N,E,S,W,C'
@@ -254,6 +256,19 @@ var bb={13,17}
 var bc={29,31}
 var bd={29,30}
 var be={30,31}
+var bf_n={12,16}
+var bf_s={10,14}
+var bf_w={ 9,13}
+var bf_e={11,15}
+var bi_s={0,1,2,3,4,5,6,7,8,10,14,18,25,26,27,28,29,30,31}
+var bi_n={0,1,2,3,4,5,6,7,8,12,16,20,25,26,27,28,29,30,31}
+var bi_e={0,1,2,3,4,5,6,7,8,11,15,19,25,26,27,28,29,30,31}
+var bi_w={0,1,2,3,4,5,6,7,8, 9,13,17,25,26,27,28,29,30,31}
+var bj_n={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,29}
+var bj_s={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,29}
+var bj_w={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26,30}
+var bj_e={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,30}
+var bh={0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,17,18,19,20,21,22,23,25,26,27,28,29,30,31}
 
 0,a,b,c,13,1
 d,e,f,g,21,9
@@ -416,22 +431,7 @@ T,16,a,b,c,0
 20,e,f,g,P,24
 20,e,V,g,v,24
 20,U,F,g,v,24
-
-# Forgotten rules
-21,e,f,g,P,21
-21,e,f,R,v,21
-21,U,f,z,v,21
-22,e,f,g,P,22
-22,e,f,R,v,22
-22,e,V,z,v,22
-23,e,f,R,h,23
-23,e,V,z,h,23
-23,U,F,z,h,23
-24,e,f,g,P,24
-24,e,V,g,v,24
-24,U,F,g,v,24
-
-21,p,0,r,w,17
+21,bj_n,0,bj_s,bj_w,17
 21,W,X,Y,Z,17
 21,a,aa,b,13,13
 21,a,aa,14,h,13
@@ -444,7 +444,7 @@ T,16,a,b,c,0
 21,12,ab,ag,ad,9
 21,16,aa,g,h,13
 21,16,ac,g,h,0
-22,0,n,r,w,18
+22,0,bj_e,bj_s,bj_w,18
 22,ah,ai,Y,Z,18
 22,aa,a,b,13,14
 22,aa,a,14,h,14
@@ -457,21 +457,21 @@ T,16,a,b,c,0
 22,aj,15,g,h,0
 22,ak,F,z,v,18
 22,9,0,10,af,18
+23,bj_n,bj_e,bj_s,0,19
 23,W,ai,Y,h,19
 23,H,F,z,al,19
 23,e,f,10,ab,11
-23,p,n,r,0,19
 23,a,b,14,aa,15
 23,a,b,14,am,0
 23,0,11,an,al,19
 23,e,11,ag,ab,11
-23,0,D,ao,0,19
+#23,0,D,ao,0,19 //hmm...
 23,a,15,g,aa,15
 23,a,15,g,am,0
 23,12,ap,ag,ab,11
 23,16,f,g,aa,15
 23,16,f,g,am,0
-24,p,n,0,w,20
+24,bj_n,bj_e,0,bj_w,20
 24,W,ai,aq,Z,20
 24,a,b,aa,13,16
 24,e,f,ab,9,12
@@ -486,21 +486,14 @@ T,16,a,b,c,0
 24,16,f,ar,h,0
 
 # XNOR gate
-
-# input W inactive, E inactive 
 at,aA,11,aK, 9,26
 aW,aA,11,aK, 9,28
-# input W active, E inactive
 at,aA,11,aK,13,25
 aW,aA,11,aK,13,27
-# input W inactive, E active
 at,aA,15,aK, 9,25
 aW,aA,15,aK, 9,27
-# input W active, E active
 at,aA,15,aK,13,26
 aW,aA,15,aK,13,28
-
-# N-S
 at,12,aB,10,aM,26
 aW,12,aB,10,aM,28
 at,16,aB,10,aM,25
@@ -584,6 +577,21 @@ ba,l,k,j,i,25
 27,20,aB,aK,13,26
 27,20,aB,14,aM,26
 27,20,15,aK,aM,26
+
+# fix of the <29,12,9,0,13,25> rules
+bc, bi_n, k,    bi_s, bf_w, 25
+bc, bi_n, bf_e, bi_s, i,    25
+bc, az,   k,    ay,   bf_w, 25
+bc, bh,   k,    aK,   bf_w, 25
+bc, az,   bf_e, ay,   i,    25
+bc, bh,   bf_e, aK,   i,    25
+be, bf_n, bi_e, j,    bi_w, 25
+be, l,    bi_e, bf_s, bi_w, 25
+be, bf_n, aB,   j,    ax,   25
+be, bf_n, aZ,   j,    aM,   25
+be, l,    aB,   bf_s, ax,   25
+be, l,    aZ,   bf_s, aM,   25
+
 bc,p,k,14,i,30
 bd,p,n,14,13,31
 bd,p,15,14,i,31
@@ -595,7 +603,7 @@ be,l,15,j,i,29
 
 @COLORS
 
-0    0  0    0
+0    0   0   0
 1  255   0   0
 2  255 125   0
 3  255 150  25
