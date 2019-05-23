@@ -15,6 +15,10 @@
 
 ![Hutton32](doc/16x16%20display.png)
 <br><br><br>
+[`3. 32x32 display (serial interface):`](misc/32x32%20display.mc)
+
+![Hutton32](doc/32x32%20display.png)
+<br><br><br>
 [`4. Efficient ROM and address decoder:`](16x16%20movie/16x16%20movie.mc)
 
 ![Hutton32](16x16%20movie/16x16%20movie.png)
