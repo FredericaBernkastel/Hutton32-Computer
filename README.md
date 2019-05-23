@@ -3,27 +3,27 @@
 - Added forgotten set of rules `<21,0,0,0,28,21>`, to make the special transitive state consistent with the regular one. It will receive signal, even if can't transmit one.
 - Added forgotten set of rules `<29,12,9,0,13,25>`.
 
-[`1. elementary basis:`](circuits-sandbox.rle)
+[`Elementary basis:`](circuits-sandbox.rle)
 
 ![Hutton32](doc/circuits-sandbox.png)
 <br><br><br>
-[`2. 8-bit decimal counter:`](advanced%20counter.mc)
+[`8-bit decimal counter:`](advanced%20counter.mc)
 
 ![Hutton32](doc/advanced%20counter~marked.png)
 <br><br><br>
-[`3. 16x16 display:`](misc/16x16%20display.mc)
+[`16x16 display:`](misc/16x16%20display.mc)
 
 ![Hutton32](doc/16x16%20display.png)
 <br><br><br>
-[`3. 32x32 display (serial interface):`](misc/32x32%20display.mc)
+[`32x32 display (serial interface):`](misc/32x32%20display.mc)
 
 ![Hutton32](doc/32x32%20display.png)
 <br><br><br>
-[`4. Efficient ROM and address decoder:`](16x16%20movie/16x16%20movie.mc)
+[`Efficient ROM and address decoder:`](misc/256k%20Segmented%20ROM.mc)
 
-![Hutton32](16x16%20movie/16x16%20movie.png)
+![Hutton32](doc/256k%20Segmented%20ROM.png)
 <br><br><br>
-[`5. Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
+[`Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
 
 ![Hutton32](doc/efficient_demultiplexer.png)
 
