@@ -10,6 +10,10 @@ except:
 fname = g.opendialog("Open File", "*.gif", "", "")
 if not len(fname):
   g.exit("")
+  
+outfile = g.savedialog("Save RAW Data File", "*.*", "", "ROM.dat")
+if not len(outfile):
+	g.exit("")
 	
 image = Image.open(fname)
 buff = BitArray()
@@ -25,10 +29,7 @@ if buff.length < 1 << 18:
 		buff.append('0x00')
 elif buff.length > 1 << 18:
 	del buff[(1 << 18) + 1 : buff.length]
-	
-outfile = g.savedialog("Save RAW Data File", "*.*", "", "ROM.dat")
-if not len(outfile):
-	g.exit("")
+  
 outfile = open(outfile, "wb")
 outfile.write(buff.bytes)
 outfile.close()
