@@ -3,9 +3,9 @@
 - Added forgotten set of rules `<21,0,0,0,28,21>`, to make the special transitive state consistent with the regular one. It will receive signal, even if can't transmit one.
 - Added forgotten set of rules `<29,12,9,0,13,25>`.
 
-[`Elementary basis:`](circuits-sandbox.rle)
+[`Component basis:`](component-basis.rle)
 
-![Hutton32](doc/circuits-sandbox.png)
+![Hutton32](doc/component-basis.png)
 <br><br><br>
 [`8-bit decimal counter:`](advanced%20counter.mc)
 
