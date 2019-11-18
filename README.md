@@ -7,9 +7,9 @@
 
 ![Hutton32](doc/component-basis.png)
 <br><br><br>
-[`8-bit decimal counter:`](advanced%20counter.mc)
+[`8-bit decimal counter:`](advanced%20counter%20v2.rle)
 
-![Hutton32](doc/advanced%20counter~marked.png)
+![Hutton32](doc/advanced%20counter%20v2~marked.png)
 <br><br><br>
 [`16x16 display:`](misc/16x16%20display.mc)
 
@@ -32,6 +32,7 @@
 ### Memories of the Hutton wars
 ![Hutton32](doc/memes/adder%20meme.png)
 ![Hutton32](doc/memes/BIN2BCD%20meme.png)
+![Hutton32](doc/memes/advanced%20counter%20meme.png)
 <img src="doc/memes/not%20meme.jpg" alt="Hutton32" width="312">
 ![Hutton32](doc/memes/Segmented%20ROM.png)
 ![Hutton32](doc/memes/wirecross.png)

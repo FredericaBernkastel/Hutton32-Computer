@@ -1,5 +1,14 @@
-#CXRLE Pos=-21,-182
-x = 191, y = 203, rule = Hutton32b
+#C 8-bit counter, output to 7-segment (base10)
+#C
+#C Originally designed by F. Bernkastel at nov. 2019
+#C e-mail: <bernkastel.frederica@protonmail.com>
+#C git: https://github.com/FredericaBernkastel/Hutton32-Computer
+#C
+#C main clock: 2691f
+#C size: 192x203 (161x68 w/o display)
+#C
+#CXRLE Pos=0,0
+x = 0, y = 0, rule = Hutton32b
 J3IK2JIJKJLJIKJ2KI2KLJK2I2LJIL2ILJLJK2I2KLIKLKJKLJLKJ2KJKI2J3IK2JIJKJ
 LJIKJ2KI2KLJK2I2LJIL2ILJLJK2I2KLIKLKJKLJLKJ2KJKI2J3IK2JIJKJLJIKJ2KI2K
 LJK2I2LJIL2ILJLJK2I2KLIKLKJKLJLKJ2KJKIJ$KL2K2L2I3JLJLK2I2J3KLKJLJ4ILJ
