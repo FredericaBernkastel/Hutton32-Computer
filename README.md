@@ -7,7 +7,7 @@
 
 ![Hutton32](doc/component-basis.png)
 <br><br><br>
-[`8-bit decimal counter:`](advanced%20counter%20v2.rle)
+[`8-bit decimal counter:`](advanced%20counter%20v2%20(synchronous%20ver.).rle)
 
 ![Hutton32](doc/advanced%20counter%20v2~marked.png)
 <br><br><br>
