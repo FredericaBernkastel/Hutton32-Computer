@@ -11,17 +11,17 @@
 
 ![Hutton32](doc/advanced%20counter%20v2~marked.png)
 <br><br><br>
-[`16x16 display:`](misc/16x16%20display.mc)
+[`16x16 display:`](misc/parallel%20display%20(16x16).mc)
 
-![Hutton32](doc/16x16%20display.png)
+![Hutton32](doc/parallel%20display%20(16x16).png)
 <br><br><br>
-[`32x32 display (serial interface):`](misc/32x32%20display.mc)
+[`32x32 display (serial interface):`](misc/serial%20display%20(32x32).mc)
 
-![Hutton32](doc/32x32%20display.png)
+![Hutton32](doc/serial%20display%20(32x32).png)
 <br><br><br>
-[`Efficient ROM and address decoder:`](misc/256k%20Segmented%20ROM.mc)
+[`Efficient ROM and address decoder:`](misc/Segmented%20ROM%20(256k).mc)
 
-![Hutton32](doc/256k%20Segmented%20ROM.png)
+![Hutton32](doc/Segmented%20ROM%20(256k).png)
 <br><br><br>
 [`Efficient demultiplexer:`](misc/efficient_demultiplexer.mc)
 
